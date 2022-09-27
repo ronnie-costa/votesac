@@ -1,0 +1,63 @@
+*{margin:0; padding: 0;}
+
+html, body{
+  height: 100%;
+  overflow: hidden;
+
+}
+#bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: auto;
+}
+
+#principal {
+  width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+p{
+  font-family: Montserrat Classic, sans-serif;
+  text-align: center;
+}
+
+#banner{
+  text-align: center;
+
+}
+
+#rodape{
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+#premio{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#ovni{
+  float: right;
+  rotate: 15deg;
+  border: transparent thin solid;
+  margin: 0px 10px 10px 0;
+  max-width: 350px;
+}
